@@ -1,0 +1,22 @@
+
+.menu-list li a {
+  text-decoration: none;
+  color: black;
+}
+.menu-list li{
+  list-style: none;
+}
+.menu-list li:hover {
+  background-color: rgb(188, 250, 234);
+}
+.right-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* @media (min-width: 600px) {
+  .menu-list li:hover {
+      color: rgb(25, 189, 148);
+      background-color: transparent;
+    }
+} */
